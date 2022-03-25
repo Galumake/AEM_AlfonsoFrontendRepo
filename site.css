@@ -60,9 +60,20 @@ footer{
 
 #menu{
     float: right;
-}    
+}  
 
+header{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+header #menu {
+    margin-left: auto;
+}
+
+/* 
 header #headShot, header #siteName, header #menu{
     display: inline;
     vertical-align: middle;
-}
+} */
