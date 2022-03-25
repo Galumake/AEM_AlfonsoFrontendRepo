@@ -12,10 +12,22 @@ h1, h2{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-header img{
+#headShot{
     border: 1px solid lightgray;
     padding: 2px;
     margin: 8px;
     border-radius: 4px;
     max-width: 100px;
+}
+
+.experience{
+    border: inset 1px;
+    margin-bottom: 4px;
+    padding: 4px;
+    background-color: white;
+    color: #222;
+}
+
+.experience .title {
+    font-weight: bold;
 }
